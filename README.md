@@ -16,9 +16,9 @@ An agent you can trust to operate a system runs a single loop. Each component be
 
 ```mermaid
 flowchart LR
-    M[**Memory**<br/>what is true,<br/>what changed] --> R[**Reasoning**<br/>what happened<br/>and why]
-    R --> V[**Verification**<br/>is the desired<br/>state real?]
-    V --> A[**Action**<br/>change, recorded<br/>and proven]
+    M[Memory<br/><i>what is true,<br/>what changed</i>] --> R[Reasoning<br/><i>what happened<br/>and why</i>]
+    R --> V[Verification<br/><i>is the desired<br/>state real?</i>]
+    V --> A[Action<br/><i>change, recorded<br/>and proven</i>]
     A -->|written back| M
     style M fill:#1f6feb,color:#fff
     style R fill:#8957e5,color:#fff
