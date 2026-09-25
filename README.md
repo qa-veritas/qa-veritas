@@ -55,7 +55,7 @@ QA Veritas
 
 Not a stage of the loop above, and not an essay in the writing series.
 
-[Checkout Memory](https://github.com/qa-veritas/checkout-memory) — a dev skill installed into the repo agents are editing. It keeps the intent, and the when and why of each change, so a new chat and the next person's agent do not decide from the code alone. The intent is a JSON Schema.
+[Project Intent](https://github.com/qa-veritas/project-intent) — a dev skill installed into the repo agents are editing. It keeps the intent, and the when and why of each change, so a new chat and the next person's agent do not decide from the code alone. The intent is a JSON Schema.
 
 ## How the components compose
 
