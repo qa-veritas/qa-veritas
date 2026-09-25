@@ -51,6 +51,12 @@ QA Veritas
 | **Skills** | [SkillPack](https://github.com/qa-veritas/skillpack) | Progressive-disclosure capability: cheap metadata always, full instructions on match. |
 | **Writing** | [Field notes & essays](https://github.com/qa-veritas/writing) | 20 articles, 8 playbooks, talks, and 9 agent designs behind the platform. |
 
+## Standalone
+
+Not a stage of the loop above, and not an essay in the writing series.
+
+[Checkout Memory](https://github.com/qa-veritas/checkout-memory) — a checkout's state is one actor's claim. Rules that bind every actor are a different file. The shape of a claim is a JSON Schema (`additionalProperties: false`), so a rule cannot hide inside a state file.
+
 ## How the components compose
 
 A worked story uses all of them: a change is checked for **feasibility** against recorded capacity (Resource Ledger), turned into **observable verification** (Intent Verify), and **journaled** — so Runbook Forge can regenerate a trustworthy procedure. When something breaks, **State Triage** parses the facts and plans the investigation while **LogLens** shows the code that emitted the failing line. Throughout, the agents doing the work load only the **SkillPack** skills each task needs.
@@ -64,6 +70,6 @@ A worked story uses all of them: a change is checked for **feasibility** against
 
 ## Start here
 
-New to the platform? Read [**Why QA Is Becoming Infrastructure Engineering**](https://github.com/qa-veritas/writing/blob/main/articles/01-why-qa-is-becoming-infrastructure-engineering.md), then skim [State Triage](https://github.com/qa-veritas/state-triage) and [Resource Ledger](https://github.com/qa-veritas/resource-ledger) — the two crispest ideas, and they run in seconds.
+New to the platform? Read [**AI-Native Verification Engineering: The Positioning**](https://github.com/qa-veritas/writing/blob/main/articles/00-ai-native-verification-engineering.md), then skim [State Triage](https://github.com/qa-veritas/state-triage) and [Resource Ledger](https://github.com/qa-veritas/resource-ledger) — the two crispest ideas, and they run in seconds.
 
 *Everything here is generic and vendor-neutral. MIT licensed. — Ajay Singh*
